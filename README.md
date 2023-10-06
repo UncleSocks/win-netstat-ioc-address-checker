@@ -3,11 +3,11 @@ A basic IP address indicator of compromise (IOC) checker, written in Python 3, t
 
 **How to Use**
 
-Run the "netfor.py" Python3 script on the target Windows machine. By default, it will use the "ioc.txt" wordlist for the blacklisted IP addresses comparison. The list is from Cisco Talos Intelligence (https://www.talosintelligence.com/documents/ip-blacklist). 
+Run the "netioc.py" Python3 script on the target Windows machine. By default, it will use the "ioc.txt" wordlist for the blacklisted IP addresses comparison. The list is from Cisco Talos Intelligence (https://www.talosintelligence.com/documents/ip-blacklist). 
 To use your own wordlist, use the "-w" option and specify the location of the wordlist file. 
 
 **Example**:
-netfor.py -w C:\Users\$Username\Documents\$Custom_Wordlist_File
+netioc.py -w C:\Users\$Username\Documents\$Custom_Wordlist_File
 
 The script simply run the "netstat -n" command, parses the foreign address output, cleans up any address duplicate, stores the cleaned output into a list, and compares it to the provided wordlist.
 
