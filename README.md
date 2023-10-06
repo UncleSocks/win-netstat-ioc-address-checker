@@ -19,4 +19,4 @@ The script simply run the "netstat -n" command, parses the foreign address outpu
 
 If there are no matching IP addresses, the script should output a "No matching blacklisted IP address identified." string. However, if there is a match it outputs a "Machine is currently connected to the following blacklisted IP addresses:" string with the list of matched IP addresses (from your wordlist).
 
-**Note**: This sript is simply part of my Python learning path as I journey towards my capstone project for my InfoSec masters. However, I'm putting it out here for anyone to use and hopefully be of help.
+**Note**: This script is just a part of my Python learning path as I journey towards my capstone project for my InfoSec masters. However, I'm putting it out here for anyone to use and hopefully be of help.
