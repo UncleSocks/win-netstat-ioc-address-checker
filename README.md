@@ -6,8 +6,7 @@ A basic IP address indicator of compromise (IOC) checker, written in Python 3, t
 Run the "netioc.py" Python3 script on the target Windows machine. By default, it will use the "ioc.txt" wordlist for the blacklisted IP addresses comparison. The list is from Cisco Talos Intelligence (https://www.talosintelligence.com/documents/ip-blacklist). 
 To use your own wordlist, use the "-w" option and specify the location of the wordlist file. A "-h" option is also available for help reference.
 
-![image](https://github.com/UncleSocks/win-netstat-ioc-address-checker/assets/79778613/fefae6ae-a74f-449a-b469-d7ed7ec3618f)
-
+![image](https://github.com/UncleSocks/win-netstat-ioc-address-checker/assets/79778613/9d6550ae-c38c-4441-ab87-253c26734898)
 
 
 
