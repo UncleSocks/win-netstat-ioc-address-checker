@@ -1,4 +1,4 @@
-# netstat-ioc-address-checker
+# Windows NetStat IOC Address Checker
 A basic IP address indicator of compromise (IOC) checker, written in Python 3, that compares the foreign address in Windows NetStat with a list of blacklisted IP addresses.
 
 **How to Use**
