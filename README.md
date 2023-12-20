@@ -11,7 +11,7 @@ To use your own wordlist, use the "-w" option and specify the location of the wo
 
 
 **Example**:
-netioc.py -w C:\Users\\$Username\Documents\\$Custom_Wordlist_File
+netioc.py -w C:\Users\\$Username\Documents\\$Custom_Wordlist_File.txt
 
 The script simply run the "netstat -n" command, parses the foreign address output, cleans up any address duplicate, stores the cleaned output into a list, and compares it to the provided wordlist.
 
